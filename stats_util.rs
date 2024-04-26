@@ -1,7 +1,4 @@
-
-
 // stats_util.rs
-
 
 /// Helper function to calculate median.
 pub fn median(numbers: &mut [f64]) -> f64 {
