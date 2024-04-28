@@ -2,10 +2,14 @@
 mod graph_ops;
 mod metrics;
 mod stat_util;
+use std::env;
+
 
 
 fn main() {
-   let graph = graph_ops::construct_graph("amazon0601.txt.gz");
+    println!("Current directory: {:?}", env::current_dir().unwrap());
+
+    let graph = graph_ops::construct_graph("../amazon0601.txt.gz");
    println!("Number of nodes: {}", graph.node_count());
    println!("Number of edges: {}", graph.edge_count());
 
