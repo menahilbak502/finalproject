@@ -14,7 +14,7 @@ Dataset
 
 The dataset used in this project consists of approximately 403,394 nodes and 3,387,388 directed edges, reflecting products and their co-purchasing relationships as of June 1, 2003.
 
-Data source: SNAP: Amazon co-purchasing network
+Data source: SNAP: Amazon co-purchasing network : https://snap.stanford.edu/data/amazon0601.html
 
 Setup Instructions
 
